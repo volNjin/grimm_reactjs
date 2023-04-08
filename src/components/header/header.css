@@ -1,0 +1,32 @@
+.header {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headerTitles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Dancing Script", sans-serif;
+  color: #0A548F;
+}
+
+.headerTitleSm {
+  position: absolute;
+  font-size: 60px;
+}
+
+.headerTitleLg {
+  font-size: 200px;
+  height: 220px;
+  align-content: center;
+}
+
+.headerImg {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 10px;
+}
