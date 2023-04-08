@@ -15,13 +15,12 @@ const Topbar = ({isLoggedIn, setIsLoggedIn}) => {
             <div className="topCenter">
                 <ul className="topList">
                     <Link style={{textDecoration:'none'}} to="/">
-                        <li className="topListItem">HOME</li>
+                        <li className="topListItem">Trang chủ</li>
                     </Link>
-                    <li className="topListItem">ABOUT</li>
-                    <li className="topListItem">CONTACT</li>
                     <Link style={{textDecoration:'none'}} to="/write">
-                        <li className="topListItem">WRITE</li>
+                        <li className="topListItem">Kể chuyện</li>
                     </Link>
+                    <li className="topListItem">Liên hệ</li>
                 </ul>
             </div>
             <div className="topLeft">
