@@ -2,5 +2,9 @@
     flex: 9;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+    background: url("https://wallpaperaccess.com/full/6719679.jpg");
+    background-size: cover;
 }
